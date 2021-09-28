@@ -38,7 +38,7 @@ public class ajout {
 				System.out.println("libelle: "+ResultSet.getString(2));
 			}
 			//9fermer la connection
-			maConnexion.close();
+			maConnexion.close(); 
 			
 			} catch (SQLException sqle)
 		
